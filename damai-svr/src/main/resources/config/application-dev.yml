@@ -1,0 +1,28 @@
+damai:
+  wx:
+#  successUrl: 'http://192.168.1.31:8083/damai-wxg/'
+#  failUrl: 'http://192.168.1.31:8083/damai-wxg/#/login/fail'
+#  successUrl: 'http://127.0.0.1:8083/damai-wxg/'
+#  failUrl: 'http://127.0.0.1:8083/damai-wxg/#/login/fail'
+#  successUrl: 'http://192.168.3.187:8083/damai-wxg/'
+#  failUrl: 'http://192.168.3.187:8083/damai-wxg/#/login/fail'
+#  successUrl: 'http://3fe181fc.ngrok.io/damai-wxg/'
+#  failUrl: 'http://3fe181fc.ngrok.io/damai-wxg/#/login/fail'
+#  successUrl: http://xickvv.natappfree.cc/damai-wxg/
+#  failUrl: 'http://xickvv.natappfree.cc/damai-wxg/#/login/fail'
+#  successUrl: http://www.nnzbz.cn/damai-wxg/
+#  failUrl: 'http://www.nnzbz.cn/damai-wxg/#/login/fail'
+    successUrl: http://zbz.wboly.com/damai-wxg/
+    failUrl: 'http://zbz.wboly.com/damai-wxg/#/login/fail'
+#  successUrl: http://zbz.duamai.com/damai-wxg/
+#  failUrl: 'http://zbz.duamai.com/damai-wxg/#/login/fail'
+
+  pnt:
+    # 30天未购买的积分扣率（30%）
+    thirtyDaysPointDeductionRate: 0.3
+    # 60天未购买的积分扣率（60%）
+    sixtyDaysPointDeductionRate: 0.6
+    # 90天未购买的积分扣率（100%）
+    ninetyDaysPointDeductionRate: 1
+    
+    

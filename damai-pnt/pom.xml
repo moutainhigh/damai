@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>rebue.damai</groupId>
+		<artifactId>damai</artifactId>
+		<version>1.1.0</version>
+	</parent>
+	<artifactId>damai-pnt</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.github.rebue.robotech</groupId>
+			<artifactId>robotech-api</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.github.rebue.robotech</groupId>
+			<artifactId>robotech-bll</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.github.rebue.ord</groupId>
+			<artifactId>ord-svr-feign</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.github.rebue.pnt</groupId>
+			<artifactId>pnt-svr-feign</artifactId>
+		</dependency>
+	</dependencies>
+</project>

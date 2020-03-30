@@ -1,0 +1,7 @@
+damai:
+  pnt:
+    # 获取积分账号的条数
+    pointAccountCount: 5
+    # 执行长时间未购买的积分任务时间
+    executeLongTimeNotBuyTaskTime: 0 0 11 * * ?
+    

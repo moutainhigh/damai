@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.github.rebue.common-pom</groupId>
+		<artifactId>sb-parent</artifactId>
+		<version>1.1.0</version>
+	</parent>
+
+	<groupId>rebue.damai</groupId>
+	<artifactId>damai</artifactId>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>damai-pnt</module>
+		<module>damai-svr</module>
+		<module>damai-svr-feign</module>
+		<module>damai-scheduler-svr</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.github.rebue.suc</groupId>
+				<artifactId>suc-svr-feign</artifactId>
+				<version>1.1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.rebue.afc</groupId>
+				<artifactId>afc-svr-feign</artifactId>
+				<version>1.1.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.github.rebue.ord</groupId>
+				<artifactId>ord-svr-feign</artifactId>
+				<version>1.1.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.github.rebue.pnt</groupId>
+				<artifactId>pnt-svr-feign</artifactId>
+				<version>1.1.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>rebue.damai</groupId>
+				<artifactId>damai-svr-feign</artifactId>
+				<version>1.1.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>rebue.damai</groupId>
+				<artifactId>damai-pnt</artifactId>
+				<version>1.1.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.github.rebue.slr</groupId>
+				<artifactId>slr-svr-feign</artifactId>
+				<version>1.1.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.github.rebue.onl</groupId>
+				<artifactId>onl-svr-feign</artifactId>
+				<version>1.1.0</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.github.rebue.jwt</groupId>
+				<artifactId>jwt-svr-feign</artifactId>
+				<version>1.0.8</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+</project>
